@@ -9,8 +9,15 @@
 body {
   padding: 0;
   margin: 0;
-  /* background: linear-gradient(to right, #aaa, #eee, #eee, #eee, #eee, #b9dcff);
-   */
+  background: linear-gradient(
+    to right,
+    #b9dcff,
+    #eee,
+    #eee,
+    #eee,
+    #eee,
+    #b9dcff
+  );
 
   font-family: "Roboto", sans-serif;
 }
@@ -106,6 +113,31 @@ button:not(.numbers) {
 
 .displayNone {
   display: none;
+}
+
+#switchBtn span {
+  background-color: #01579b;
+  font-size: 18px;
+  border: none;
+  border-radius: 4;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #eee;
+  cursor: pointer;
+}
+#switchBtn span:hover {
+  color: #fff;
+}
+#switchBtn {
+  margin: 0 45%;
+  padding-top: 25px;
+}
+a {
+  text-decoration: none;
+}
+#switchBtn span {
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 /* BASIC---------------------- */

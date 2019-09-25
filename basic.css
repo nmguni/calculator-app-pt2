@@ -19,18 +19,20 @@ body {
     #b9dcff
   ); */
   background: linear-gradient(
-    337deg,
-    #f4f4f4,
+    to right,
+    #b9dcff,
     #eee,
-    #23a6d5,
-    rgb(155, 148, 148)
+    #eee,
+    #eee,
+    #eee,
+    #b9dcff
   );
-
+  /* 
   -webkit-animation: AnimationName 20s ease infinite;
   -moz-animation: AnimationName 20s ease infinite;
   -o-animation: AnimationName 20s ease infinite;
   animation: AnimationName 20s ease infinite;
-  background-size: 400% 400%;
+  background-size: 400% 400%; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -163,11 +165,17 @@ button:not(.numbers) {
   color: #eee;
   cursor: pointer;
 }
-
 #switchBtn span:hover {
-  color: #bbb;
+  color: #fff;
 }
 #switchBtn {
-  margin: 0 50%;
+  margin: 0 45%;
   padding-top: 25px;
+}
+a {
+  text-decoration: none;
+}
+#switchBtn span {
+  border-radius: 4px;
+  text-decoration: none;
 }
