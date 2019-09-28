@@ -153,13 +153,42 @@ function sqrRoot() {
     currentOperandTExtElement.innerHTML = answer.toString();
   });
 }
+function cosCalc() {
+  // grab number from display
+  let num = parseInt(currentOperandTExtElement.innerText);
+  //  compute number
+  let answer = Math.cos(num);
+  let finalA = answer.toExponential();
+  // click = and add answer to current operand
+  equalsButtons.addEventListener("click", button => {
+    currentOperandTExtElement.innerHTML = finalA.toString();
+  });
+}
 
-// switch ------------------
+function tanCalc() {
+  // grab number from display
+  let num = parseInt(currentOperandTExtElement.innerText);
+  //  compute number
+  let answer = Math.tan(num);
+  let finalA = answer.toExponential();
+  // click = and add answer to current operand
+  equalsButtons.addEventListener("click", button => {
+    currentOperandTExtElement.innerHTML = finalA.toString();
+  });
+}
 
-//get button
-// let switchBtn = document.getElementById("switchBtn");
-// let sci_calc = document.getElementById("scientific_calculator");
-
-// switchBtn.addEventListener("click", () => {
-//   sci_calc.className = "displayNone";
-// });
+function atanCalc() {
+  // grab number from display
+  let num = parseInt(currentOperandTExtElement.innerText);
+  //  compute number
+  let answer = Math.atan(num);
+  let finalA = answer.toExponential();
+  // click = and add answer to current operand
+  equalsButtons.addEventListener("click", button => {
+    currentOperandTExtElement.innerHTML = finalA.toString();
+  });
+}
+// scientific notation function
+// function scientificNotation(x,f) {
+// return Number.parseFloat(x).toExponential(f)
+// }

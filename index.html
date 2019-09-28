@@ -47,17 +47,29 @@
       <button class="numbers" data-number>6</button>
       <button data-operation>*</button>
       <button class="">acos</button>
-      <button class="span-two ">cos</button>
+      <button 
+      data-operation
+
+      class="span-two"
+      onclick="cosCalc()"
+      >cos</button>
       <button class="">log</button>
       <button class="numbers " data-number>1</button>
       <button class="numbers " data-number>2</button>
       <button class="numbers " data-number>3</button>
       <button class="minus" data-operation>-</button>
-      <button data-operation>atan</button>
-      <button data-number>tan</button>
+      <button 
+      value="atan"
+      data-operation
+      onclick="atanCalc()"
+      data-operation>atan</button>
+      <button 
+      data-operation
+      onclick=" tanCalc()"
+      value="tan"
+      >tan</button>
       <button
         onclick="sqrRoot()"
-        id="btnSqrt"
         type="button"
         name="operator"
         value="√"
