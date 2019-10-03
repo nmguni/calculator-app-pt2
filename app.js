@@ -158,10 +158,10 @@ function cosCalc() {
   let num = parseInt(currentOperandTExtElement.innerText);
   //  compute number
   let answer = Math.cos(num);
-  let finalA = answer.toExponential();
+  // let finalA = answer.toExponential();
   // click = and add answer to current operand
   equalsButtons.addEventListener("click", button => {
-    currentOperandTExtElement.innerHTML = finalA.toString();
+    currentOperandTExtElement.innerHTML = answer.toString();
   });
 }
 
@@ -170,10 +170,10 @@ function tanCalc() {
   let num = parseInt(currentOperandTExtElement.innerText);
   //  compute number
   let answer = Math.tan(num);
-  let finalA = answer.toExponential();
+  // let finalA = answer.toExponential();
   // click = and add answer to current operand
   equalsButtons.addEventListener("click", button => {
-    currentOperandTExtElement.innerHTML = finalA.toString();
+    currentOperandTExtElement.innerHTML = answer.toString();
   });
 }
 
@@ -182,10 +182,10 @@ function atanCalc() {
   let num = parseInt(currentOperandTExtElement.innerText);
   //  compute number
   let answer = Math.atan(num);
-  let finalA = answer.toExponential();
+
   // click = and add answer to current operand
   equalsButtons.addEventListener("click", button => {
-    currentOperandTExtElement.innerHTML = finalA.toString();
+    currentOperandTExtElement.innerHTML = answer.toString();
   });
 }
 // scientific notation function
