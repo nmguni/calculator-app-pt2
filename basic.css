@@ -166,7 +166,10 @@ button:not(.numbers) {
   cursor: pointer;
 }
 #switchBtn span:hover {
-  color: #fff;
+  color: #01579b;
+  background: #eee;
+  border: 1.5px solid #01579b;
+  font-weight: bold;
 }
 #switchBtn {
   margin: 0 45%;

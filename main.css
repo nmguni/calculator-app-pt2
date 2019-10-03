@@ -126,7 +126,10 @@ button:not(.numbers) {
   cursor: pointer;
 }
 #switchBtn span:hover {
-  color: #fff;
+  color: #01579b;
+  background: #eee;
+  border: 1.5px solid #01579b;
+  font-weight: bold;
 }
 #switchBtn {
   margin: 0 45%;
@@ -139,36 +142,3 @@ a {
   border-radius: 4px;
   text-decoration: none;
 }
-
-/* BASIC---------------------- */
-/* .basic_calc_grid {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  min-height: 100vh;
-  grid-gap: 5px;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-}
-.basic_output {
-  grid-column: 1 / -1;
-  background-color: rgba(87, 87, 87, 0.616);
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  flex-direction: column;
-  padding: 10px;
-  word-wrap: break-word;
-  word-break: break-all;
-  border-radius: 3px;
-}
-.basic_calc_grid button {
-  border-radius: 4px;
-  background: rgb(209, 209, 209);
-  border: none;
-  font-size: 16px;
-}
-
-.span_two {
-  grid-column: span 2;
-} */
